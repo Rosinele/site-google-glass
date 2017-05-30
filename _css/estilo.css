@@ -1,0 +1,66 @@
+@charset "UTF-8";
+
+body{
+	background-color: white;
+	color: rgba(0,0,0,1);
+}
+p{	text-align: justify;
+	text-indent: 50px;
+}
+
+
+/* Formatação de imagens com legenda */
+
+figure.foto-legenda {
+	position: relative; /* Legenda fica mesma posição do código */
+	border: 8px solid white;
+	box-shadow: 5px, 5px, 9px black;
+
+}
+
+figure.foto-legenda img {
+	width: 100%;
+	height: 100%;
+}
+
+
+figure.foto-legenda figcaption {
+	opacity: 0;
+	position: absolute;
+	top: 0px;
+	background-color: rgba(0, 0, 0, 0.4); /*Plano de fundo preto com transparencia*/
+	color: white; /*Letra branca*/
+	width: 100%; /*Ocupa todo todo o espaço da imagem*/
+	height: 100%;
+	transition: opacity 1s;
+	padding: 4px; /*Espaço dentro da legenda*/
+    box-sizing: border-box; /* Cria um box dentro da borda*/
+
+
+}
+
+figure.foto-legenda:hover figcaption{
+	opacity: 1;
+
+}
+/*Formatação do Menu*/
+display: block;
+
+nav#menu ul {
+    list-style: none; /*Retirar marcadores de lista*/
+    text-transform: uppercase; /*Transforma em caixa alta*/
+    position: absolute;
+    top: 0px;
+    left: 100px;  
+}
+nav#menu li{
+    display: inline-block; /*Ajustar lado a lado*/
+    background-color: #dddddd; /*Cor cinza no fundo*/
+    padding: 10px; /*Aumenta margem interna do background*/
+    margin: 2px; /*Espaço entre os botões*/
+}
+
+nav#menu h1{
+    display: none;
+    
+}
