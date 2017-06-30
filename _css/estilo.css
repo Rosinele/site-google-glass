@@ -33,8 +33,8 @@ a:hover {
 
 header#cabecalho img#icone {
 	position: absolute;
-	left: 780px;
-	top: 70px;
+	left: 950px;
+	top: 65px;
 }
 
 header#cabecalho {
@@ -106,7 +106,7 @@ nav#menu ul {
     text-transform: uppercase; /*Transforma em caixa alta*/
     position: absolute; /*Posição absoluta dentro do site (relativa fica presa dentro do Nav)*/
     top: -20px;
-    left: 300px;  
+    left: 480px;  
 }
 nav#menu li{
     display: inline-block; /*Ajustar lado a lado*/
