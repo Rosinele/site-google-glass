@@ -6,12 +6,14 @@ section#conteudo{
 }
 
 iframe#frame-spec{
-    width: 380px;
+    width: 400px;
     height: 280px;
     border: none;
     overflow: hidden; /*Evitar a rolagem*/
 }
-
-iframe#frame-spec::-webkit-scrollbar{
-     display: none;
+ 
+iframe#frame-spec::-webkit-scrollbar {
+    display: none;
 }
+
+ 
